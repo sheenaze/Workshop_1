@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+</head>
+<body>
+Pomyśl liczbę od 1 do 1000 a ja ją zgadnę w maksymalnie 10 próbach!
+
+<form action = "" method = "POST">
+    <input type="submit" name="control" value="Gramy!" class="button"> <br>
+<!--</form >-->
+  <p>Mój strzał: {{wynik}}</p>
+<!--    <label for ="num_1" > Give a natural number between 0 and 1000:</label> <br>-->
+<!--    <input type = "number" id = "num_1" name = "num" placeholder = "Natural number"> <br>-->
+<!--<form action = "" method = "POST">-->
+    <input type="hidden" id="minP" name="minimum" value={{val_min}}>
+        <input type="hidden" id="maxP" name="maximum" value={{val_max}}>
+<!--     <input type="hidden" id="minP" name="minimum" value="0">-->
+<!--     <input type="hidden" id="maxP" name="maximum" value=1000>-->
+
+
+     <input type="submit" name="control" value="Za mało" class="button">
+     <input type="submit" name="control" value="Za dużo" class="button">
+     <input type="submit" name="control" value="Zgadłeś!" class="button">
+</form >
+
+
+</body>
+</html>
