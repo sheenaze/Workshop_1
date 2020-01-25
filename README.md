@@ -17,4 +17,4 @@ First Python Workshop, includes 5 tasks:
     
   4. Implementation of the 3d task as a web application usign Flask
    
-  5. Checking if the given code refers to codes used in RPG board games, e.g. a code "2D10+20" mean: throw two decagon dices        and then add 20 to the result
+  5. Checking if the given code refers to codes used in RPG board games, e.g. a code "2D10+20" mean: throw two decagon dices        and then add 20 to the result (regular expressions would be good here, but that was very beginnings)
